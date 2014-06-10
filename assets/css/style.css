@@ -1,0 +1,225 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body, html{
+	width:100%;
+	height:100%;
+	font-family: 'SourceSansPro-Black', sans-serif;
+}
+
+@font-face {
+  font-family: 'SourceSansPro-Black';
+  src: url('../fonts/SourceSansPro-Black.eot');
+  src: url('../fonts/SourceSansPro-Black.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/SourceSansPro-Black.woff') format('woff'),
+       url('../fonts/SourceSansPro-Black.ttf') format('truetype'),
+       url('../fonts/SourceSansPro-Black.svg#SourceSansPro-Black') format('svg');
+}
+
+@font-face {
+	font-family:"SourceSansPro-Semibold";
+	src:url("../fonts/SourceSansPro-Semibold.eot?") format("eot"),
+	url("../fonts/SourceSansPro-Semibold.woff") format("woff"),
+	url("../fonts/SourceSansPro-Semibold.ttf") format("truetype"),
+	url("../fonts/SourceSansPro-Semibold.svg#SourceSansPro-Semibold") format("svg");
+}
+
+@font-face {
+	font-family:"SourceSansPro-Regular";
+	src:url("../fonts/SourceSansPro-Regular.eot?") format("eot"),
+	url("../fonts/SourceSansPro-Regular.woff") format("woff"),
+	url("../fonts/SourceSansPro-Regular.ttf") format("truetype"),
+	url("../fonts/SourceSansPro-Regular.svg#SourceSansPro-Regular") format("svg");
+}
+
+#global{
+	height:100%;
+	width:100%;
+	position: fixed;
+	top:0;
+}
+
+section{
+	height:100%;
+	background-color: #171a1d;
+}
+
+
+.container{
+	width:1024px;
+	margin:0 auto;
+	text-align: center;
+}
+
+#landing{
+	background: url("../images/landing.png") no-repeat scroll center center / 100% 100% rgba(0, 0, 0, 0);
+	text-align:center;
+}
+
+#landing h1{
+	padding-top:230px;
+	color:#c0392b;
+	font-size: 72px;
+}
+
+#landing h2{
+	margin-top:10px;
+	color:#fff;
+	font-size: 14px;
+}
+
+#start-button{
+	margin: 70px auto 0;
+	display:block;
+	width:246px;
+	padding:15px 25px;
+	border:solid 2px #fff;
+	color:#fff;
+	font-size: 14px;
+	font-family: 'SourceSansPro-Semibold', sans-serif;
+	transition:all .3s ease;
+	cursor:pointer;
+}	
+
+#start-button:hover{
+	border:solid 2px #fff;
+	color:#c0392b;
+	font-size: 14px;
+	background-color:#fff;
+}	
+
+#home h2{
+	text-align: center;
+	padding: 55px 0;
+	font-size: 25px;
+	color: #a7aeb9;
+}
+
+.red{
+	color: #c0392b;
+}
+
+#info{
+	position:absolute;
+	width:100%;
+	height:250px;
+}
+
+#info #menu{
+	float:left;
+	display: inline-block;
+	width:20%;
+	text-align: center;
+	background-color:#191b1f;
+	height: 100%;
+	padding-top:68px;
+}
+
+#info #menu a{
+	display: block;
+	width: 76%;
+	padding: 14px 0; 
+	margin: 0 auto;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: 'SourceSansPro-Semibold', sans-serif;
+	text-align: center;
+	transition: all 1s ease;
+	cursor:pointer;
+}
+
+#info #menu a:nth-child(2){
+	margin-top:35px;
+}
+
+.active{
+	background-color: #a7aeb9;
+	color: #54626e;
+}
+
+.not-active{
+	background-color: #54626e;
+	color: #a7aeb9;
+}
+
+#content{
+	background-color: #a7aeb9;
+	width: 80%;
+	height: 100%;
+	display: inline-block;
+}
+
+
+/************* MAP ***********/
+
+#map {
+  margin:0 auto;
+  width:80%;
+  height:72%;
+}
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+#countries, #states {
+  fill: #a7aeb9;
+  stroke: #a7aeb9;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  cursor:pointer;
+}
+
+#countries .active, #states .active {
+  fill: none;
+}
+
+#cities {
+  stroke-width: 0;
+}
+
+.city {
+  fill: none;
+  stroke: none;
+}
+
+pre.prettyprint {
+  border: 1px solid #ccc;
+  margin-bottom: 0;
+  /*padding: 9.5px;*/
+}
+
+/**** FIN MAP *****/
+
+#genocide h2{
+  padding-top: 55px;
+  color: #c0392b;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+#genocide h3{
+  margin-top: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color:#fff;
+}
+
+#genocide h4{
+  margin-top: 55px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color:#fff;
+}
+
+#genocide #description{
+  margin-top: 16px;
+  text-align: justify;
+  font-size: 14px;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  color:#fff;
+  line-height: 1.8;
+}
