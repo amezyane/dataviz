@@ -211,7 +211,7 @@ Pays["Afrique"] = new Array(500, 362, 2.5);
 Pays["Amerique Nord"] = new Array(190, 220, 1.8);
 Pays["Amerique Sud"] = new Array(300, 442, 2.4);
 Pays["Asie"] = new Array(745, 270, 1.8);
-Pays["Europe"] = new Array(500, 180, 2.9);
+Pays["Europe"] = new Array(500, 200, 2.3);
 Pays["Oceanie"] = new Array(850, 435, 3.5);
 
 var continentEnCours='';
