@@ -107,10 +107,6 @@ function country_clicked(d) {
   }else{
     $("#info").css('display', 'block').animate({"top" : ($(window).height()*2)},500);
   }
-  else
-  {
-    $("#info").css('display', 'block').animate({"top" : ($(window).height()*2)},500);
-  }
 
   g.selectAll(["#states", "#cities"]).remove();
   state = null;
