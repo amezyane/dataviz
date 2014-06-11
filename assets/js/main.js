@@ -13,14 +13,14 @@ $(window).resize(function(){
 $('#info').css("top", ($(window).height()*2));
 
 var m_width = $("#map").width(),
-        width = $("#map").width(),
-        height = $("#map").height(),
-        country,
-        state;
+    width = $("#map").width(),
+    height = $("#map").height(),
+    country,
+    state;
 
 var projection = d3.geo.mercator()
     .scale(150)
-    .translate([width / 2.2, height / 1.5]);
+    .translate([width/2.2, height/1.5]);
 
 var path = d3.geo.path()
     .projection(projection);
@@ -74,8 +74,6 @@ function zoom(xyz, d) {
       // (graphiques, cadres informatifs, etc.)
 
       // d.id = le trigramme (FRA) du pays, c'est ainsi que l'on sait quel pays est sélectionné
-      
-      $("#info").html("<h1>"+d.properties.name+"</h1>");
     }
     continentEnCours = Tab[d.id];
   }
@@ -104,12 +102,15 @@ function country_clicked(d) {
   if (typeof d != "undefined") {
     nameCountry = d.id;
     $("#info").css('display', 'block').animate({"top" : ($(window).height()*2-$("#info").height())},500);
+  }else{
+    $("#info").css('display', 'block').animate({"top" : ($(window).height()*2)},500);
   }
 
   g.selectAll(["#states", "#cities"]).remove();
   state = null;
 
   if (country) {
+    console.log(country);
     g.selectAll("#" + country.id).style('display', null);
   }
 
@@ -123,4 +124,3 @@ function country_clicked(d) {
     zoom(xyz, d);
   }
 }
-
