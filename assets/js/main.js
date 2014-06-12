@@ -13,14 +13,14 @@ $(window).resize(function(){
 $('#info').css("top", ($(window).height()*2));
 
 var m_width = $("#map").width(),
-    width = $("#map").width(),
-    height = $("#map").height(),
-    country,
-    state;
+        width = $("#map").width(),
+        height = $("#map").height(),
+        country,
+        state;
 
 var projection = d3.geo.mercator()
     .scale(150)
-    .translate([width/2.2, height/1.5]);
+    .translate([width / 2.2, height / 1.5]);
 
 var path = d3.geo.path()
     .projection(projection);
@@ -38,6 +38,8 @@ svg.append("rect")
     .on("click", country_clicked);
 
 var g = svg.append("g");
+
+var pays = "";
 
 
 d3.json("assets/json/countries.topo.json", function(error, us) {
@@ -67,6 +69,29 @@ $.ajax({
     createCircles(genocides);
   }
 });
+
+
+var svg2 = d3.select("#content").append("svg");
+
+var g2 = svg2.append("g");
+
+g2.append("title").text("Titre du graphique");
+
+
+// Barre horizontale
+g2.append("line")
+  .attr("x1", "50")
+  .attr("y1", "100")
+  .attr("x2", "800")
+  .attr("y2", "100")
+  .attr("style", "fill:none;stroke:black;stroke-width:1px;");
+
+g2.append("line")
+  .attr("x1", "60")
+  .attr("y1", "10")
+  .attr("x2", "60")
+  .attr("y2", "110")
+  .attr("style", "fill:none;stroke:black;stroke-width:1px;");
 
 function zoom(xyz, d) {
 
@@ -119,15 +144,34 @@ function country_clicked(d) {
   {
     nameCountry = d.id;
     $("#info").css('display', 'block').animate({"top" : ($(window).height()*2-$("#info").height())},500);
-  }else{
-    $("#info").css('display', 'block').animate({"top" : ($(window).height()*2)},500);
-  }
 
+    // La boucle ci-dessous permet de colorer le continent sélectionné et décolorer les autres.
+    for (var key in Tab)
+    {
+      pays = "#"+key;
+      $(pays).css("fill","#a7aeb9");
+      if(Tab[key] == Tab[d.id])
+      {
+        $(pays).css("fill","#FFF");
+      }
+    }
+  }
+  else
+  {
+    $("#info").css('display', 'block').animate({"top" : ($(window).height()*2)},500);
+
+    // La boucle ci-dessous permet de décolorer les continents lors du dézoom.
+    for (var key in Tab)
+    {
+      pays = "#"+key;
+      $(pays).css("fill","#a7aeb9");
+    }
+  }
+  
   g.selectAll(["#states", "#cities"]).remove();
   state = null;
 
   if (country) {
-    console.log(country);
     g.selectAll("#" + country.id).style('display', null);
   }
 
@@ -141,3 +185,5 @@ function country_clicked(d) {
     zoom(xyz, d);
   }
 }
+
+
