@@ -223,3 +223,10 @@ pre.prettyprint {
   color:#fff;
   line-height: 1.8;
 }
+
+#canvas{
+	width: 300px;
+	height: 300px;
+	margin-top: -150px;
+	float: right;
+}

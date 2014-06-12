@@ -52,6 +52,21 @@ d3.json("assets/json/countries.topo.json", function(error, us) {
     .on("click", country_clicked);
 });
 
+var genocides = {};
+var popTotale = 10000000;
+var popAvant = 6000000;
+
+$.ajax({
+  dataType: "json",
+  url: "./assets/json/genocides.json",
+  success : function(data){
+    genocides = data;
+  },
+  complete : function(){
+    createOutCircle(genocides);
+    createCircles(genocides);
+  }
+});
 
 function zoom(xyz, d) {
 
@@ -74,7 +89,7 @@ function zoom(xyz, d) {
       // (graphiques, cadres informatifs, etc.)
 
       // d.id = le trigramme (FRA) du pays, c'est ainsi que l'on sait quel pays est sélectionné
-      // $(".info").html("<h1>"+d.properties.name+"</h1>");
+      $("#global").animate({top:"-200%"}, 1000);  
     }
     continentEnCours = Tab[d.id];
   }
