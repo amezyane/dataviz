@@ -61,7 +61,7 @@
 		"date_median" : 1794,
 		"description" : "La République française, alors engagée dans une guerre révolutionnaire contre une coalition européenne et une guerre civile contre les royalistes et les fédéralistes, est gouvernée par un pouvoir d’exception reposant sur la force, l’illégalité et la répression9 à l'encontre des opposants politiques qualifiés de « contre-révolutionnaires ».",
 		"nombreMorts" :  263000,
-		"pays" : ["RWA"]
+		"pays" : ["FRA"]
 	},
 	{
 		"nom" : "génocide arménien par turc",
@@ -92,7 +92,7 @@
 		"dates" : [1933, 1945],
 		"description" : "La shoah est l’extermination systématique par l’Allemagne nazie d'entre cinq et six millions de Juifs, soit les deux tiers des Juifs d'Europe et environ 40 % des Juifs du monde, pendant la Seconde Guerre mondiale. Les Juifs, désignés par les nazis comme leurs ennemis irréductibles et assimilés à une race inférieure selon leur idéologie, furent affamés jusqu’à la mort dans les ghettos de Pologne et d’Union soviétique occupée ou assassinés par l’emploi des méthodes suivantes : fusillades massives des Einsatzgruppen sur le front de l’Est ; travail forcé et sous-alimentation dans les camps de concentration ; gazage dans les « camions à gaz » ou dans les chambres à gaz des camps d’extermination. Dans ce dernier cas, les corps étaient éliminés par l'usage intensif des fours crématoires. Cette partie de la Shoah en fait le seul génocide industrialisé de l'histoire.",
 		"nombreMorts" : 5185000,
-		"pays" : ["FRA", "POL", "DEU", "BGR"]
+		"pays" : ["FRA", "POL", "DEU", "BGR", "AUT", "SVK", "GRC", "NLD", "HUN", "BEL"]
 	},
 	{
 		"nom" : "grandes purges",
@@ -122,9 +122,9 @@
 		"nom" : "massacres des  Oustachis croates",
 		"dates" : [1941-1945],
 		"date_median" : 1943,
-		"description" : "35 000 Juifs, entre 172 0001 et 290 0002 Serbes et 25 000 Tziganes",
+		"description" : " la Yougoslavie est envahie par les forces de l’Axe. Pavelić devient le dirigeant de l’État indépendant de Croatie créé le 10 avril 1941, inféodé de fait à l’Allemagne et à l’Italie, dont il copie les institutions. Le régime en place persécute et assassine 35 000 Juifs, entre 172 0001 et 290 0002 Serbes et 25 000 Tziganes",
 		"nombreMorts" :	300000,
-		"pays" : ["RWA"]
+		"pays" : ["KOS"]
 	},
 	{
 		"nom" : "Massacre de Bleiburg",
