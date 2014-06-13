@@ -11,7 +11,7 @@
 		"nom" : "Les Croisades",
 		"dates" : [1933, 1945],
 		"date_median" : 1938,
-		"description" : "Après les massacres commis chemin faisant pour Jérusalem, dont 30.000 Juifs en Rhénanie, ils tuèrent lors de la prise de la Ville Sainte 70.000 Musulmans et Juifs - hommes, femmes, enfants, vieillards - pour ensuite les piller. Comme écrit le chroniqueur Franc de Gesta Francorum qui prit part à la curée, après ce massacre, les Croisés, tout dégoulinants de sang, "allèrent, pleurant de joie, honorer le Tombeau du Seigneur",
+		"description" : "Après les massacres commis chemin faisant pour Jérusalem, dont 30.000 Juifs en Rhénanie, ils tuèrent lors de la prise de la Ville Sainte 70.000 Musulmans et Juifs - hommes, femmes, enfants, vieillards - pour ensuite les piller. Comme écrit le chroniqueur Franc de Gesta Francorum qui prit part à la curée, après ce massacre, les Croisés, tout dégoulinants de sang, 'allèrent, pleurant de joie, honorer le Tombeau du Seigneur'",
 		"nombreMorts" : 1000000,
 		"pays" : ["FRA", "POL", "DEU"]
 	},
