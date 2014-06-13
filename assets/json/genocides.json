@@ -7,8 +7,8 @@
 		"nombreMorts" : 2000000,
 		"moyenneMorts" : 18.18,
 		"pays" : ["FRA"],
-		"x" : 659,
-		"y" : 275
+		"x" : 660,
+		"y" : 273
 	},
 	{
 		"nom" : "Les Croisades",
@@ -17,9 +17,9 @@
 		"description" : "Après les massacres commis chemin faisant pour Jérusalem, dont 30.000 Juifs en Rhénanie, ils tuèrent lors de la prise de la Ville Sainte 70.000 Musulmans et Juifs - hommes, femmes, enfants, vieillards - pour ensuite les piller. Comme écrit le chroniqueur Franc de Gesta Francorum qui prit part à la curée, après ce massacre, les Croisés, tout dégoulinants de sang, 'allèrent, pleurant de joie, honorer le Tombeau du Seigneur'",
 		"nombreMorts" : 1000000,
 		"moyenneMorts" : 9.09,
-		"pays" : ["FRA", "POL", "DEU"],
-		"x" : 657,
-		"y" : 285
+		"pays" : ["FRA", "POL", "DEU", "ISR"],
+		"x" : 747,
+		"y" : 323
 	},
 	{
 		"nom" : "Croisade des Albigeois",
@@ -29,12 +29,12 @@
 		"nombreMorts" :  200000,
 		"moyenneMorts" : 1.81,
 		"pays" : ["FRA"],
-		"x" : 650,
-		"y" : 300
+		"x" : 657,
+		"y" : 285
 	},
 	{
 		"nom" : "Chasse aux sorcières",
-		"dates" : ["XVe", "XVIIe siècle"],
+		"dates" : [1400, 1700],
 		"date_median" : 1500,
 		"description" : "La chasse aux sorcières est la recherche et la condamnation de personnes accusées de pratiquer la magie noire.",
 		"nombreMorts" :  100000,
@@ -67,14 +67,14 @@
 	},
 	{
 		"nom" : "Inquisition espagnole",
-		"dates" : ["XVIe", "XVIIIe siècle"],
+		"dates" : [1400, 1800],
 		"date_median" : 1700,
 		"description" : " Conçue à l'origine pour maintenir l'orthodoxie catholique dans leurs royaumes, elle avait des précédents dans d'autres institutions similaires en Europe depuis le xiiie siècle. Elle a élargi le champ de ses justiciables (musulmans, protestants, sectes…)",
 		"nombreMorts" :  350000,
 		"moyenneMorts" : 3.18,
 		"pays" : ["ESP"],
-		"x" : 657,
-		"y" : 285
+		"x" : 645,
+		"y" : 303
 	},
 	{
 		"nom" : "Révolution française",
@@ -84,8 +84,8 @@
 		"nombreMorts" :  263000,
 		"moyenneMorts" : 2.39,
 		"pays" : ["FRA"],
-		"x" : 657,
-		"y" : 285
+		"x" : 660,
+		"y" : 268
 	},
 	{
 		"nom" : "génocide arménien par turc",
@@ -95,8 +95,8 @@
 		"nombreMorts" :  1500000,
 		"moyenneMorts" : 13.64,
 		"pays" : ["ARM"],
-		"x" : 657,
-		"y" : 285
+		"x" : 770,
+		"y" : 295
 	},
 	{
 		"nom" : "terreur rouge",
@@ -106,8 +106,8 @@
 		"nombreMorts" :  140000,
 		"moyenneMorts" : 1.27,
 		"pays" : ["RUS"],
-		"x" : 657,
-		"y" : 285
+		"x" : 740,
+		"y" : 225
 	},
 	{
 		"nom" : "Génocide pontique",
@@ -128,8 +128,8 @@
 		"nombreMorts" :  1799455,
 		"moyenneMorts" : 16.36,
 		"pays" : ["RUS"],
-		"x" : 657,
-		"y" : 285
+		"x" : 745,
+		"y" : 225
 	},
 	{
 		"nom" : "La shoah, seconde guerre mondiale",
@@ -139,8 +139,8 @@
 		"nombreMorts" : 5185000,
 		"moyenneMorts" : 47.14,
 		"pays" : ["FRA", "POL", "DEU", "BGR", "AUT", "SVK", "GRC", "NLD", "HUN", "BEL"],
-		"x" : 657,
-		"y" : 285
+		"x" : 707,
+		"y" : 250
 	},
 	{
 		"nom" : "Aktion T4 (anti-handicapé)",
@@ -150,8 +150,8 @@
 		"nombreMorts" : 250000,
 		"moyenneMorts" : 2.27,
 		"pays" : ["DEU"],
-		"x" : 657,
-		"y" : 285
+		"x" : 680,
+		"y" : 260
 	},
 	{
 		"nom" : "Guerre d'anéantissement du IIIe Reich contre l'Union soviétique",
@@ -161,30 +161,30 @@
 		"nombreMorts" :	11000000,
 		"moyenneMorts" : 100,
 		"pays" : ["RUS"],
-		"x" : 657,
-		"y" : 285
+		"x" : 740,
+		"y" : 245
 	},
 	{
 		"nom" : "massacres des  Oustachis croates",
-		"dates" : [1941-1945],
+		"dates" : [1941, 1945],
 		"date_median" : 1943,
 		"description" : " la Yougoslavie est envahie par les forces de l’Axe. Pavelić devient le dirigeant de l’État indépendant de Croatie créé le 10 avril 1941, inféodé de fait à l’Allemagne et à l’Italie, dont il copie les institutions. Le régime en place persécute et assassine 35 000 Juifs, entre 172 0001 et 290 0002 Serbes et 25 000 Tziganes",
 		"nombreMorts" :	300000,
 		"moyenneMorts" : 2.73,
 		"pays" : ["KOS"],
-		"x" : 657,
-		"y" : 285
+		"x" : 709,
+		"y" : 288
 	},
 	{
 		"nom" : "Massacre de Bleiburg",
 		"dates" : [1945],
 		"date_median" : 1945,
-		"description" : "Le génocide des Tutsis est un génocide qui eut lieu du 7 avril 1994 à juillet 1994 au Rwanda, un pays d'Afrique de l'Est. Il fut commis dans le cadre d'une guerre civile opposant le gouvernement rwandais, constitué de Hutus (voir Hutu Power), au Front patriotique rwandais (FPR), accusé par les autorités d'être essentiellement « tutsi ». Le 1er octobre 1990, des Rwandais exilés et regroupés au sein du FPR décidèrent de revenir au pays à partir de l'Ouganda, et de prendre le pouvoir par les armes. En réponse, les autorités rwandaises menèrent une double stratégie : se défendre avec l'armée contre l'agression militaire du FPR et « liquider » tous les Tutsi de l'intérieur du Rwanda. Les autorités rwandaises perdirent la guerre civile au profit du FPR mais atteignirent en revanche leur objectif génocidaire contre les Tutsis.",
+		"description" : "Meurtre de masse des soldats et civils croates qui fuyaient l'État indépendant de Croatie vaincu, qui en fait était contrôlé par le Troisième Reich.",
 		"nombreMorts" :	190000,
 		"moyenneMorts" : 1.73,
 		"pays" : ["AUT"],
-		"x" : 657,
-		"y" : 285
+		"x" : 695,
+		"y" : 270
 	},
 	{
 		"nom" : "Tito",
@@ -194,7 +194,7 @@
 		"nombreMorts" :  1072000,
 		"moyenneMorts" : 9.75,
 		"pays" : ["KOS"],
-		"x" : 657,
-		"y" : 285
+		"x" : 709,
+		"y" : 292
 	}
 ]
