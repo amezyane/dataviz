@@ -8,7 +8,10 @@
 		"moyenneMorts" : 18.18,
 		"pays" : ["FRA"],
 		"x" : 660,
-		"y" : 273
+		"y" : 273,
+		"popAvant" : 7000000,
+		"popEchelle" : 2210000,
+		"Echelle" : "Paris"
 	},
 	{
 		"nom" : "Les Croisades",
@@ -19,7 +22,10 @@
 		"moyenneMorts" : 9.09,
 		"pays" : ["FRA", "POL", "DEU", "ISR"],
 		"x" : 747,
-		"y" : 323
+		"y" : 323,
+		"popAvant" : 7000000,
+		"popEchelle" : 2210000,
+		"Echelle" : "Paris"
 	},
 	{
 		"nom" : "Croisade des Albigeois",
@@ -30,7 +36,10 @@
 		"moyenneMorts" : 1.81,
 		"pays" : ["FRA"],
 		"x" : 657,
-		"y" : 285
+		"y" : 285,
+		"popAvant" : 7000000,
+		"popEchelle" : 224900,
+		"Echelle" : "Lille"
 	},
 	{
 		"nom" : "Chasse aux sorcières",
@@ -41,7 +50,10 @@
 		"moyenneMorts" : 0.9,
 		"pays" : ["DEU", "FRA", "ESP", "SWE", "CHE", "AUT", "DNK"],
 		"x" : 657,
-		"y" : 285
+		"y" : 285,
+		"popAvant" : 7000000,
+		"popEchelle" : 224900,
+		"Echelle" : "Lille"
 	},
 	{
 		"nom" : "Guerre de Trente Ans",
@@ -52,7 +64,10 @@
 		"moyenneMorts" : 52.27,
 		"pays" : ["DEU", "FRA", "ESP", "SWE", "CHE", "AUT", "DNK"],
 		"x" : 657,
-		"y" : 285
+		"y" : 285,
+		"popAvant" : 7000000,
+		"popEchelle" : 65700000,
+		"Echelle" : "France"
 	},
 	{
 		"nom" : "Traite des Noirs",
@@ -63,7 +78,10 @@
 		"moyenneMorts" : 100,
 		"pays" : ["DNK", "FRA", "GBR", "ESP", "PR1", "BEL"],
 		"x" : 657,
-		"y" : 285
+		"y" : 285,
+		"popAvant" : 7000000,
+		"popEchelle" : 65700000,
+		"Echelle" : "France"
 	},
 	{
 		"nom" : "Inquisition espagnole",
@@ -74,7 +92,10 @@
 		"moyenneMorts" : 3.18,
 		"pays" : ["ESP"],
 		"x" : 645,
-		"y" : 303
+		"y" : 303,
+		"popAvant" : 7000000,
+		"popEchelle" : 65700000,
+		"Echelle" : "France"
 	},
 	{
 		"nom" : "Révolution française",
@@ -85,7 +106,10 @@
 		"moyenneMorts" : 2.39,
 		"pays" : ["FRA"],
 		"x" : 660,
-		"y" : 268
+		"y" : 268,
+		"popAvant" : 7000000,
+		"popEchelle" : 65700000,
+		"Echelle" : "France"
 	},
 	{
 		"nom" : "génocide arménien par turc",
@@ -96,7 +120,10 @@
 		"moyenneMorts" : 13.64,
 		"pays" : ["ARM"],
 		"x" : 770,
-		"y" : 295
+		"y" : 295,
+		"popAvant" : 7000000,
+		"popEchelle" : 65700000,
+		"Echelle" : "France"
 	},
 	{
 		"nom" : "terreur rouge",
@@ -107,7 +134,10 @@
 		"moyenneMorts" : 1.27,
 		"pays" : ["RUS"],
 		"x" : 740,
-		"y" : 225
+		"y" : 225,
+		"popAvant" : 7000000,
+		"popEchelle" : 65700000,
+		"Echelle" : "France"
 	},
 	{
 		"nom" : "Génocide pontique",
@@ -118,7 +148,10 @@
 		"moyenneMorts" : 3.55,
 		"pays" : ["TUR"],
 		"x" : 657,
-		"y" : 285
+		"y" : 285,
+		"popAvant" : 7000000,
+		"popEchelle" : 65700000,
+		"Echelle" : "France"
 	},
 	{
 		"nom" : "grandes purges",
@@ -129,7 +162,10 @@
 		"moyenneMorts" : 16.36,
 		"pays" : ["RUS"],
 		"x" : 745,
-		"y" : 225
+		"y" : 225,
+		"popAvant" : 7000000,
+		"popEchelle" : 65700000,
+		"Echelle" : "France"
 	},
 	{
 		"nom" : "La shoah, seconde guerre mondiale",
@@ -140,7 +176,10 @@
 		"moyenneMorts" : 47.14,
 		"pays" : ["FRA", "POL", "DEU", "BGR", "AUT", "SVK", "GRC", "NLD", "HUN", "BEL"],
 		"x" : 707,
-		"y" : 250
+		"y" : 250,
+		"popAvant" : 7000000,
+		"popEchelle" : 65700000,
+		"Echelle" : "France"
 	},
 	{
 		"nom" : "Aktion T4 (anti-handicapé)",
@@ -151,7 +190,10 @@
 		"moyenneMorts" : 2.27,
 		"pays" : ["DEU"],
 		"x" : 680,
-		"y" : 260
+		"y" : 260,
+		"popAvant" : 7000000,
+		"popEchelle" : 65700000,
+		"Echelle" : "France"
 	},
 	{
 		"nom" : "Guerre d'anéantissement du IIIe Reich contre l'Union soviétique",
@@ -162,7 +204,10 @@
 		"moyenneMorts" : 100,
 		"pays" : ["RUS"],
 		"x" : 740,
-		"y" : 245
+		"y" : 245,
+		"popAvant" : 7000000,
+		"popEchelle" : 65700000,
+		"Echelle" : "France"
 	},
 	{
 		"nom" : "massacres des  Oustachis croates",
@@ -173,7 +218,10 @@
 		"moyenneMorts" : 2.73,
 		"pays" : ["KOS"],
 		"x" : 709,
-		"y" : 288
+		"y" : 288,
+		"popAvant" : 7000000,
+		"popEchelle" : 65700000,
+		"Echelle" : "France"
 	},
 	{
 		"nom" : "Massacre de Bleiburg",
@@ -184,7 +232,10 @@
 		"moyenneMorts" : 1.73,
 		"pays" : ["AUT"],
 		"x" : 695,
-		"y" : 270
+		"y" : 270,
+		"popAvant" : 7000000,
+		"popEchelle" : 65700000,
+		"Echelle" : "France"
 	},
 	{
 		"nom" : "Tito",
@@ -195,6 +246,10 @@
 		"moyenneMorts" : 9.75,
 		"pays" : ["KOS"],
 		"x" : 709,
-		"y" : 292
+		"y" : 292,
+		"popAvant" : 7000000,
+		"popEchelle" : 65700000,
+		"Echelle" : "Paris"
+		
 	}
 ]
