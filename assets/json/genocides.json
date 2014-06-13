@@ -192,8 +192,8 @@
 		"x" : 680,
 		"y" : 260,
 		"popAvant" : 7000000,
-		"popEchelle" : 65700000,
-		"Echelle" : "France"
+		"popEchelle" : 826700,
+		"Echelle" : "Marseille"
 	},
 	{
 		"nom" : "Guerre d'anéantissement du IIIe Reich contre l'Union soviétique",
@@ -220,8 +220,8 @@
 		"x" : 709,
 		"y" : 288,
 		"popAvant" : 7000000,
-		"popEchelle" : 65700000,
-		"Echelle" : "France"
+		"popEchelle" : 826700,
+		"Echelle" : "Marseille"
 	},
 	{
 		"nom" : "Massacre de Bleiburg",
@@ -234,8 +234,8 @@
 		"x" : 695,
 		"y" : 270,
 		"popAvant" : 7000000,
-		"popEchelle" : 65700000,
-		"Echelle" : "France"
+		"popEchelle" : 826700,
+		"Echelle" : "Marseille"
 	},
 	{
 		"nom" : "Tito",
@@ -248,7 +248,7 @@
 		"x" : 709,
 		"y" : 292,
 		"popAvant" : 7000000,
-		"popEchelle" : 65700000,
+		"popEchelle" : 2166200,
 		"Echelle" : "Paris"
 		
 	}
