@@ -45,7 +45,7 @@
 		"date_median" : 1994,
 		"description" : " Conçue à l'origine pour maintenir l'orthodoxie catholique dans leurs royaumes, elle avait des précédents dans d'autres institutions similaires en Europe depuis le xiiie siècle. Elle a élargi le champ de ses justiciables (musulmans, protestants, sectes…)",
 		"nombreMorts" :  350000,
-		"pays" : ["RWA"]
+		"pays" : ["ESP"]
 	},
 	{
 		"nom" : "Traite des Noirs",
@@ -53,7 +53,7 @@
 		"date_median" : 1660,
 		"description" : "la traite des Noirs désigne des commerces d'esclaves dont ont été victimes, par millions, les populations de l'Afrique de l'ouest, Afrique centrale et l'Afrique australe durant plusieurs siècles",
 		"nombreMorts" :  11000000,
-		"pays" : ["DNK"]
+		"pays" : ["DNK", "FRA", "GBR", "ESP", "PR1", "BEL"]
 	},
 	{
 		"nom" : "Révolution française",
