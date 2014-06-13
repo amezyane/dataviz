@@ -94,8 +94,8 @@
 		"x" : 645,
 		"y" : 303,
 		"popAvant" : 7000000,
-		"popEchelle" : 65700000,
-		"Echelle" : "France"
+		"popEchelle" : 826700,
+		"Echelle" : "Marseille"
 	},
 	{
 		"nom" : "Révolution française",
@@ -108,8 +108,8 @@
 		"x" : 660,
 		"y" : 268,
 		"popAvant" : 7000000,
-		"popEchelle" : 65700000,
-		"Echelle" : "France"
+		"popEchelle" : 826700,
+		"Echelle" : "Marseille"
 	},
 	{
 		"nom" : "génocide arménien par turc",
@@ -122,8 +122,8 @@
 		"x" : 770,
 		"y" : 295,
 		"popAvant" : 7000000,
-		"popEchelle" : 65700000,
-		"Echelle" : "France"
+		"popEchelle" : 2210000,
+		"Echelle" : "Paris"
 	},
 	{
 		"nom" : "terreur rouge",
@@ -136,8 +136,8 @@
 		"x" : 740,
 		"y" : 225,
 		"popAvant" : 7000000,
-		"popEchelle" : 65700000,
-		"Echelle" : "France"
+		"popEchelle" : 224900,
+		"Echelle" : "Lille"
 	},
 	{
 		"nom" : "Génocide pontique",
@@ -150,8 +150,8 @@
 		"x" : 657,
 		"y" : 285,
 		"popAvant" : 7000000,
-		"popEchelle" : 65700000,
-		"Echelle" : "France"
+		"popEchelle" : 826700,
+		"Echelle" : "Marseille"
 	},
 	{
 		"nom" : "grandes purges",
