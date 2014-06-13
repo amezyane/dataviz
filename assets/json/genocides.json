@@ -25,19 +25,19 @@
 	},
 	{
 		"nom" : "Chasse aux sorcières",
-		"dates" : [XVe, XVIIe siècle],
+		"dates" : [1400, 1600],
 		"date_median" : 1500,
-		"description" : "La chasse aux sorcières est la recherche et la condamnation de personnes accusées de pratiquer la magie noire."
+		"description" : "La chasse aux sorcières est la recherche et la condamnation de personnes accusées de pratiquer la magie noire.",
 		"nombreMorts" :  100000,
 		"pays" : ["DEU", "FRA", "ESP", "SWE", "CHE", "AUT", "DNK"]
 	},
 	{
-		"nom" : "Guerre de Trente Ans",
-		"dates" : [1618, 1648],
-		"date_median" : 1632,
-		"description" : "La guerre de Trente Ans est une série de conflits armés qui a déchiré l’Europe de 1618 à 1648. Les causes en sont multiples mais son déclencheur est la révolte des sujets tchèques protestants de la maison de Habsbourg, la répression qui suivit et le désir de ces derniers d’accroître leur hégémonie et celle de la religion catholique dans le Saint-Empire.",
-		"nombreMorts" :  5750000,
-		"pays" : ["DEU", "FRA", "ESP", "SWE", "CHE", "AUT", "DNK"]
+		"nom" : "Le génocide amérindien",
+		"dates" : [1500, 2014],
+		"date_median" : 1600,
+		"description" : "La colonisation des Amériques par les puissances européennes a entraîné la destruction quasi totale de plusieurs peuples d'Amérique du Sud et réduit de 35 millions environ à moins de 2 millions de personnes la population amérindienne d'Amérique du Nord entre 1500 et aujourd'hui. La population du continent latino-américain était évaluée à 50 millions en 1492 (25 millions dans l'empire aztèque, 12 millions dans l'empire inca), et 8 millions en 1650 (dont un million, soit moins de 4 %, au Mexique). La diminution de la population amérindienne apparaît de manière sensible vers 1545 et s'accentue vers 1570, à cause, avant tout, des microbes véhiculés par les Européens. Le bétail, importé d'Europe, souillait l'eau consommée par les populations autochtones. La chute de la population suit le retrait, en 1572, des privilèges apostoliques détenus par les Franciscains, qui avaient bâti des aqueducs et des fontaines publiques pour assurer l'accès à une eau saine",
+		"nombreMorts" : 30000000,
+		"pays" : ["USA"]
 	},
 	{
 		"nom" : "Traite des Noirs",
@@ -48,9 +48,17 @@
 		"pays" : ["DNK", "FRA", "GBR", "ESP", "PR1", "BEL"]
 	},
 	{
+		"nom" : "Guerre de Trente Ans",
+		"dates" : [1618, 1648],
+		"date_median" : 1632,
+		"description" : "La guerre de Trente Ans est une série de conflits armés qui a déchiré l’Europe de 1618 à 1648. Les causes en sont multiples mais son déclencheur est la révolte des sujets tchèques protestants de la maison de Habsbourg, la répression qui suivit et le désir de ces derniers d’accroître leur hégémonie et celle de la religion catholique dans le Saint-Empire.",
+		"nombreMorts" :  5750000,
+		"pays" : ["DEU", "FRA", "ESP", "SWE", "CHE", "AUT", "DNK"]
+	},
+	{
 		"nom" : "Inquisition espagnole",
-		"dates" : [XVIe, XVIIIe siècle],
-		"date_median" : 1700,
+		"dates" : [1500, 1700],
+		"date_median" : 1600,
 		"description" : " Conçue à l'origine pour maintenir l'orthodoxie catholique dans leurs royaumes, elle avait des précédents dans d'autres institutions similaires en Europe depuis le xiiie siècle. Elle a élargi le champ de ses justiciables (musulmans, protestants, sectes…)",
 		"nombreMorts" :  350000,
 		"pays" : ["ESP"]
@@ -67,7 +75,7 @@
 		"nom" : "génocide arménien par turc",
 		"dates" : [1915],
 		"date_median" : 1915,
-		"description" : "Préparés et organisés depuis Constantinople, alors capitale de l'empire, les déportations et les massacres ont été mis en œuvre à l'échelle locale par les responsables des divers districts et provinces chargés de rassembler leurs administrés arméniens, ainsi que par les soldats et gendarmes ottomans qui escortaient les convois jusqu'au désert et procédaient eux-mêmes à des exécutions ou laissaient libre cours à la violence de groupes de bandits armés"
+		"description" : "Préparés et organisés depuis Constantinople, alors capitale de l'empire, les déportations et les massacres ont été mis en œuvre à l'échelle locale par les responsables des divers districts et provinces chargés de rassembler leurs administrés arméniens, ainsi que par les soldats et gendarmes ottomans qui escortaient les convois jusqu'au désert et procédaient eux-mêmes à des exécutions ou laissaient libre cours à la violence de groupes de bandits armés",
 		"nombreMorts" :  1500000,
 		"pays" : ["ARM"]
 	},
@@ -88,6 +96,14 @@
 		"pays" : ["TUR"]
 	},
 	{
+		"nom" : "La shoah, seconde guerre mondiale",
+		"dates" : [1933, 1945],
+		"date_median" : 1939,
+		"description" : "La shoah est l’extermination systématique par l’Allemagne nazie d'entre cinq et six millions de Juifs, soit les deux tiers des Juifs d'Europe et environ 40 % des Juifs du monde, pendant la Seconde Guerre mondiale. Les Juifs, désignés par les nazis comme leurs ennemis irréductibles et assimilés à une race inférieure selon leur idéologie, furent affamés jusqu’à la mort dans les ghettos de Pologne et d’Union soviétique occupée ou assassinés par l’emploi des méthodes suivantes : fusillades massives des Einsatzgruppen sur le front de l’Est ; travail forcé et sous-alimentation dans les camps de concentration ; gazage dans les « camions à gaz » ou dans les chambres à gaz des camps d’extermination. Dans ce dernier cas, les corps étaient éliminés par l'usage intensif des fours crématoires. Cette partie de la Shoah en fait le seul génocide industrialisé de l'histoire.",
+		"nombreMorts" : 5185000,
+		"pays" : ["FRA", "POL", "DEU", "BGR", "AUT", "SVK", "GRC", "NLD", "HUN", "BEL"]
+	},
+	{
 		"nom" : "grandes purges",
 		"dates" : [1936],
 		"date_median" : 1936,
@@ -96,12 +112,12 @@
 		"pays" : ["RUS"]
 	},
 	{
-		"nom" : "La shoah, seconde guerre mondiale",
-		"dates" : [1933, 1945],
-		"date_median" : 1939,
-		"description" : "La shoah est l’extermination systématique par l’Allemagne nazie d'entre cinq et six millions de Juifs, soit les deux tiers des Juifs d'Europe et environ 40 % des Juifs du monde, pendant la Seconde Guerre mondiale. Les Juifs, désignés par les nazis comme leurs ennemis irréductibles et assimilés à une race inférieure selon leur idéologie, furent affamés jusqu’à la mort dans les ghettos de Pologne et d’Union soviétique occupée ou assassinés par l’emploi des méthodes suivantes : fusillades massives des Einsatzgruppen sur le front de l’Est ; travail forcé et sous-alimentation dans les camps de concentration ; gazage dans les « camions à gaz » ou dans les chambres à gaz des camps d’extermination. Dans ce dernier cas, les corps étaient éliminés par l'usage intensif des fours crématoires. Cette partie de la Shoah en fait le seul génocide industrialisé de l'histoire.",
-		"nombreMorts" : 5185000,
-		"pays" : ["FRA", "POL", "DEU", "BGR", "AUT", "SVK", "GRC", "NLD", "HUN", "BEL"]
+		"nom" : "Massacre de Nankin",
+		"dates" : [1937, 1938],
+		"date_median" : 1937,
+		"description" : "Le massacre de Nankin, également appelé Sac de Nankin ou Viol de Nankin, est un évènement de la seconde guerre sino-japonaise qui a eu lieu à partir de décembre 1937, après la bataille de Nankin. Pendant les six semaines que dure le massacre de Nankin, des centaines de milliers de civils et de soldats désarmés sont assassinés et entre 20 000 et 80 000 femmes et enfants sont violés1 par les soldats de l'armée impériale japonaise. Le 7 décembre 1937, Tchang Kaï-chek, chef du Kuomintang, qui avait déclaré la ville comme capitale, décide de la fuir, l'estimant perdue, suite aux résultats de la bataille de Shanghai et aux conseils de ses stratèges allemands. Il y laisse toutefois une troupe de 100 000 hommes peu entraînés, dont la mission est de pratiquer la politique de la terre brûlée : Nankin est affichée comme un objectif imprenable, et les moyens pour les civils de s'en échapper sont détruits par ses troupes, qui devant le danger, évacuent à leur tour la ville."
+		"nombreMorts" :  300000,
+		"pays" : ["CHN"]
 	},
 	{
 		"nom" : "Aktion T4 (anti-handicapé)",
@@ -128,6 +144,14 @@
 		"pays" : ["KOS"]
 	},
 	{
+		"nom" : "Tito",
+		"dates" : [1944, 1980],
+		"date_median" : 1962,
+		"description" : "Tito, après une période de guerre particulièrement violente, se traduit par la répression d'un maximum de 775 000 personnes, dont 260 000 exécutions expéditives7. L'OZNA (Bureau de protection du peuple), police politique des Partisans, rebaptisée UDBA (Administration de la Sécurité de l'État) a tout pouvoir pour mener une politique de terreur8. Certains villages albanais du Kosovo, tenus par la guérilla du Balli Kombëtar partisane du rattachement à la Grande Albanie, sont rasés et leur population massacrée.",
+		"nombreMorts" :  1072000,
+		"pays" : ["KOS"]
+	},
+	{
 		"nom" : "Massacre de Bleiburg",
 		"dates" : [1945],
 		"date_median" : 1945,
@@ -136,12 +160,43 @@
 		"pays" : ["AUT"]
 	},
 	{
-		"nom" : "Tito",
-		"dates" : [1944, 1980],
-		"date_median" : 1962,
-		"description" : "Tito, après une période de guerre particulièrement violente, se traduit par la répression d'un maximum de 775 000 personnes, dont 260 000 exécutions expéditives7. L'OZNA (Bureau de protection du peuple), police politique des Partisans, rebaptisée UDBA (Administration de la Sécurité de l'État) a tout pouvoir pour mener une politique de terreur8. Certains villages albanais du Kosovo, tenus par la guérilla du Balli Kombëtar partisane du rattachement à la Grande Albanie, sont rasés et leur population massacrée.",
-		"nombreMorts" :  1072000,
-		"pays" : ["KOS"]
-	}
+		"nom" : "Massacre de Manille",
+		"dates" : [1945],
+		"date_median" : 1945,
+		"description" : "La bataille de Manille s'est déroulée durant la seconde campagne des Philippines de la Seconde Guerre mondiale, du 3 février au 3 mars 1945. Les combats dans la capitale des Philippines furent particulièrement sanglants et laissèrent la ville dévastée. La prise de Manille fut l'un des moments clés de la reconquête des Philippines, occupées par l'Empire du Japon depuis trois ans.",
+		"nombreMorts" : 12000,
+		"pays" : ["PHL"]
+	},
 	
+	{
+		"nom": "Guerre civile en Inde",
+		"dates" : [1947, 1949],
+		"date_median" : 1948,
+		"description" : "Le massacre de Nankin, également appelé Sac de Nankin ou Viol de Nankin, est un évènement de la seconde guerre sino-japonaise qui a eu lieu à partir de décembre 1937, après la bataille de Nankin. Pendant les six semaines que dure le massacre de Nankin, des centaines de milliers de civils et de soldats désarmés sont assassinés et entre 20 000 et 80 000 femmes et enfants sont violés1 par les soldats de l'armée impériale japonaise. Le 7 décembre 1937, Tchang Kaï-chek, chef du Kuomintang, qui avait déclaré la ville comme capitale, décide de la fuir, l'estimant perdue, suite aux résultats de la bataille de Shanghai et aux conseils de ses stratèges allemands. Il y laisse toutefois une troupe de 100 000 hommes peu entraînés, dont la mission est de pratiquer la politique de la terre brûlée : Nankin est affichée comme un objectif imprenable, et les moyens pour les civils de s'en échapper sont détruits par ses troupes, qui devant le danger, évacuent à leur tour la ville.",
+		"pays":["IND"]
+	},
+	{
+		"nom" : "Coup d'État du 11 septembre 1973 au Chili",
+		"dates" : [1973, 1976],
+		"date_median" : 1974,
+		"description" : "Le coup d’État du 11 septembre 1973 au Chili a été un événement marquant de l'histoire du Chili. Le mardi 11 septembre 1973, le gouvernement du président démocratiquement élu Salvador Allende (socialiste) était renversé par un coup d'État militaire. Le coup d'État fut planifié par les commandants en chef des trois armées et le chef de la police, et dirigé par le général d'armée Augusto Pinochet. Il a eu lieu dans un contexte de crise et de forte polarisation politique, sociale et économique, avec une opposition entre le pouvoir exécutif et les pouvoirs législatif et judiciaire. Il intervenait notamment deux mois après le Tanquetazo, une première tentative de coup d'État (juin 1973).",
+		"nombreMorts" : 10000,
+		"pays" : ["CHL"]
+	},
+	{
+		"nom" : "Guerre civile du Salvador",
+		"dates" : [1979, 1992],
+		"date_median" : 1985,
+		"description" : "La guerre civile du Salvador est une guerre civile ayant eu lieu de 1979 à 1992 au Salvador entre le Front Farabundo Martí de libération nationale (FMLN) et le gouvernement. La rébellion du FMLN était soutenue par Cuba et le Nicaragua qui le fournissaient notamment en armes (AK-47, RPK et PKM). Elle se solde par la signature des Accords de paix de Chapultepec mettant fin au conflit en 1992. Le gouvernement salvadorien était soutenu en revanche par les États-Unis, inscrivant le conflit dans le contexte de la guerre froide.",
+		"nombreMorts" : 60000,
+		"pays" : ["SLV"]
+	},
+	{
+		"nom" : "Dictature militaire en Argentine",
+		"dates" : [1980, 1989],
+		"date_median" : 1985,
+		"description" : "Le « Processus de réorganisation nationale » (« Proceso de Reorganización Nacional ») est le nom que s'est officiellement donné la dictature militaire argentine de 1976 à 1983, qui imitait ainsi le Proceso de reconstrucción nacional de la dictature uruguayenne. Celle-ci a fait près de 30 000 « disparus » (desaparecidos), 15 000 fusillés, 9 000 prisonniers politiques, et 1,5 million exilés pour 30 millions d'habitants1, ainsi qu'au moins 500 bébés enlevés aux parents desaparecidos et élevés par des familles proches du pouvoir. Trois ans après la fin de la dictature de la Révolution argentine (1966-73), la junte militaire prit le pouvoir dans un contexte tendu d'affrontements entre les péronistes de gauche et de droite, qui culmina dans le massacre d'Ezeiza le jour du retour du général Juan Perón, en exil depuis vingt ans en Espagne franquiste. Après le renversement le 24 mars 1976 par un coup d'État du gouvernement d'Isabel Perón, le général Videla dirigea la junte, formée d'un représentant de la Marine, d'un autre de l'Armée de terre et d'un de l'aviation. Quatre juntes militaires se sont succédé jusqu'en 1983. Le régime fut responsable de la mort ou de la disparition de 30 000 personnes (les desaparecidos), de l'exil de millions d'Argentins et de la guerre des Malouines avec la Grande-Bretagne. ",
+		"nombreMorts" : 30000,
+		"pays" : ["ARG"]
+	}
 ]
