@@ -9,8 +9,8 @@
 	},
 	{
 		"nom" : "Les Croisades",
-		"dates" : [1933, 1945],
-		"date_median" : 1938,
+		"dates" : [1095, 1291],
+		"date_median" : 1150,
 		"description" : "Après les massacres commis chemin faisant pour Jérusalem, dont 30.000 Juifs en Rhénanie, ils tuèrent lors de la prise de la Ville Sainte 70.000 Musulmans et Juifs - hommes, femmes, enfants, vieillards - pour ensuite les piller. Comme écrit le chroniqueur Franc de Gesta Francorum qui prit part à la curée, après ce massacre, les Croisés, tout dégoulinants de sang, 'allèrent, pleurant de joie, honorer le Tombeau du Seigneur'",
 		"nombreMorts" : 1000000,
 		"pays" : ["FRA", "POL", "DEU"]
@@ -24,14 +24,6 @@
 		"pays" : ["FRA"]
 	},
 	{
-		"nom" : "Guerre de Trente Ans",
-		"dates" : [1618, 1648],
-		"date_median" : 1994,
-		"description" : "La guerre de Trente Ans est une série de conflits armés qui a déchiré l’Europe de 1618 à 1648. Les causes en sont multiples mais son déclencheur est la révolte des sujets tchèques protestants de la maison de Habsbourg, la répression qui suivit et le désir de ces derniers d’accroître leur hégémonie et celle de la religion catholique dans le Saint-Empire.",
-		"nombreMorts" :  5750000,
-		"pays" : ["DEU", "FRA", "ESP", "SWE", "CHE", "AUT", "DNK"]
-	},
-	{
 		"nom" : "Chasse aux sorcières",
 		"dates" : [XVe, XVIIe siècle],
 		"date_median" : 1500,
@@ -40,12 +32,12 @@
 		"pays" : ["DEU", "FRA", "ESP", "SWE", "CHE", "AUT", "DNK"]
 	},
 	{
-		"nom" : "Inquisition espagnole",
-		"dates" : [XVIe, XVIIIe siècle],
-		"date_median" : 1994,
-		"description" : " Conçue à l'origine pour maintenir l'orthodoxie catholique dans leurs royaumes, elle avait des précédents dans d'autres institutions similaires en Europe depuis le xiiie siècle. Elle a élargi le champ de ses justiciables (musulmans, protestants, sectes…)",
-		"nombreMorts" :  350000,
-		"pays" : ["ESP"]
+		"nom" : "Guerre de Trente Ans",
+		"dates" : [1618, 1648],
+		"date_median" : 1632,
+		"description" : "La guerre de Trente Ans est une série de conflits armés qui a déchiré l’Europe de 1618 à 1648. Les causes en sont multiples mais son déclencheur est la révolte des sujets tchèques protestants de la maison de Habsbourg, la répression qui suivit et le désir de ces derniers d’accroître leur hégémonie et celle de la religion catholique dans le Saint-Empire.",
+		"nombreMorts" :  5750000,
+		"pays" : ["DEU", "FRA", "ESP", "SWE", "CHE", "AUT", "DNK"]
 	},
 	{
 		"nom" : "Traite des Noirs",
@@ -54,6 +46,14 @@
 		"description" : "la traite des Noirs désigne des commerces d'esclaves dont ont été victimes, par millions, les populations de l'Afrique de l'ouest, Afrique centrale et l'Afrique australe durant plusieurs siècles",
 		"nombreMorts" :  11000000,
 		"pays" : ["DNK", "FRA", "GBR", "ESP", "PR1", "BEL"]
+	},
+	{
+		"nom" : "Inquisition espagnole",
+		"dates" : [XVIe, XVIIIe siècle],
+		"date_median" : 1700,
+		"description" : " Conçue à l'origine pour maintenir l'orthodoxie catholique dans leurs royaumes, elle avait des précédents dans d'autres institutions similaires en Europe depuis le xiiie siècle. Elle a élargi le champ de ses justiciables (musulmans, protestants, sectes…)",
+		"nombreMorts" :  350000,
+		"pays" : ["ESP"]
 	},
 	{
 		"nom" : "Révolution française",
@@ -88,13 +88,6 @@
 		"pays" : ["TUR"]
 	},
 	{
-		"nom" : "La shoah, seconde guerre mondiale",
-		"dates" : [1933, 1945],
-		"description" : "La shoah est l’extermination systématique par l’Allemagne nazie d'entre cinq et six millions de Juifs, soit les deux tiers des Juifs d'Europe et environ 40 % des Juifs du monde, pendant la Seconde Guerre mondiale. Les Juifs, désignés par les nazis comme leurs ennemis irréductibles et assimilés à une race inférieure selon leur idéologie, furent affamés jusqu’à la mort dans les ghettos de Pologne et d’Union soviétique occupée ou assassinés par l’emploi des méthodes suivantes : fusillades massives des Einsatzgruppen sur le front de l’Est ; travail forcé et sous-alimentation dans les camps de concentration ; gazage dans les « camions à gaz » ou dans les chambres à gaz des camps d’extermination. Dans ce dernier cas, les corps étaient éliminés par l'usage intensif des fours crématoires. Cette partie de la Shoah en fait le seul génocide industrialisé de l'histoire.",
-		"nombreMorts" : 5185000,
-		"pays" : ["FRA", "POL", "DEU", "BGR", "AUT", "SVK", "GRC", "NLD", "HUN", "BEL"]
-	},
-	{
 		"nom" : "grandes purges",
 		"dates" : [1936],
 		"date_median" : 1936,
@@ -103,9 +96,17 @@
 		"pays" : ["RUS"]
 	},
 	{
+		"nom" : "La shoah, seconde guerre mondiale",
+		"dates" : [1933, 1945],
+		"date_median" : 1939,
+		"description" : "La shoah est l’extermination systématique par l’Allemagne nazie d'entre cinq et six millions de Juifs, soit les deux tiers des Juifs d'Europe et environ 40 % des Juifs du monde, pendant la Seconde Guerre mondiale. Les Juifs, désignés par les nazis comme leurs ennemis irréductibles et assimilés à une race inférieure selon leur idéologie, furent affamés jusqu’à la mort dans les ghettos de Pologne et d’Union soviétique occupée ou assassinés par l’emploi des méthodes suivantes : fusillades massives des Einsatzgruppen sur le front de l’Est ; travail forcé et sous-alimentation dans les camps de concentration ; gazage dans les « camions à gaz » ou dans les chambres à gaz des camps d’extermination. Dans ce dernier cas, les corps étaient éliminés par l'usage intensif des fours crématoires. Cette partie de la Shoah en fait le seul génocide industrialisé de l'histoire.",
+		"nombreMorts" : 5185000,
+		"pays" : ["FRA", "POL", "DEU", "BGR", "AUT", "SVK", "GRC", "NLD", "HUN", "BEL"]
+	},
+	{
 		"nom" : "Aktion T4 (anti-handicapé)",
-		"dates" : [1994],
-		"date_median" : 1994,
+		"dates" : [1940, 1941],
+		"date_median" : 1941,
 		"description" : "Campagne systématique d'assassinat par le régime nazi en vue d’éliminer les handicapés mentaux ou physiques. Au sens strict, elle ne concerne que les assassinats au moyen de chambres à gaz, mais la plupart des auteurs y incluent l'élimination des malades mentaux par la famine, des injections médicamenteuses létales ou d'autres méthodes.",
 		"nombreMorts" : 250000,
 		"pays" : ["DEU"]
