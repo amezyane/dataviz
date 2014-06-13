@@ -23,7 +23,7 @@
 		"pays" : ["FRA", "POL", "DEU", "ISR"],
 		"x" : 747,
 		"y" : 323,
-		"popAvant" : 7000000,
+		"popAvant" : 10000000,
 		"popEchelle" : 2210000,
 		"Echelle" : "Paris"
 	},
@@ -37,7 +37,7 @@
 		"pays" : ["FRA"],
 		"x" : 657,
 		"y" : 285,
-		"popAvant" : 7000000,
+		"popAvant" : 15000000,
 		"popEchelle" : 224900,
 		"Echelle" : "Lille"
 	},
@@ -51,7 +51,7 @@
 		"pays" : ["DEU", "FRA", "ESP", "SWE", "CHE", "AUT", "DNK"],
 		"x" : 657,
 		"y" : 285,
-		"popAvant" : 7000000,
+		"popAvant" : 15300000,
 		"popEchelle" : 224900,
 		"Echelle" : "Lille"
 	},
@@ -65,7 +65,7 @@
 		"pays" : ["DEU", "FRA", "ESP", "SWE", "CHE", "AUT", "DNK"],
 		"x" : 657,
 		"y" : 285,
-		"popAvant" : 7000000,
+		"popAvant" : 21000000,
 		"popEchelle" : 65700000,
 		"Echelle" : "France"
 	},
@@ -79,7 +79,7 @@
 		"pays" : ["DNK", "FRA", "GBR", "ESP", "PR1", "BEL"],
 		"x" : 657,
 		"y" : 285,
-		"popAvant" : 7000000,
+		"popAvant" : 20000000,
 		"popEchelle" : 65700000,
 		"Echelle" : "France"
 	},
@@ -93,7 +93,7 @@
 		"pays" : ["ESP"],
 		"x" : 645,
 		"y" : 303,
-		"popAvant" : 7000000,
+		"popAvant" : 9160000,
 		"popEchelle" : 826700,
 		"Echelle" : "Marseille"
 	},
@@ -107,7 +107,7 @@
 		"pays" : ["FRA"],
 		"x" : 660,
 		"y" : 268,
-		"popAvant" : 7000000,
+		"popAvant" : 28100000,
 		"popEchelle" : 826700,
 		"Echelle" : "Marseille"
 	},
@@ -121,7 +121,7 @@
 		"pays" : ["ARM"],
 		"x" : 770,
 		"y" : 295,
-		"popAvant" : 7000000,
+		"popAvant" : 3000000,
 		"popEchelle" : 2210000,
 		"Echelle" : "Paris"
 	},
